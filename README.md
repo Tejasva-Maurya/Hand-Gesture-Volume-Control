@@ -1,11 +1,11 @@
 # ✋🎛️ Hand Gesture-Based Volume Control
 
-## 🌟 Overview 🎉🎨✨
+## 🌟 Overview ✨
 The **Hand Gesture-Based Volume Control** project enables users to 🎚️ control or adjust the system volume using simple 🤌 hand gestures. By leveraging **🤖 MediaPipe** for hand tracking and **🔊 PyCaw** for audio control, this project showcases an intuitive, touch-free way to manage 🔈 volume levels. The program 📹 captures hand movements through a 📷 webcam and maps the distance between specific ✋ hand landmarks to adjust the 🎶 volume.
 
 ---
 
-## 🛠️ Features 🎯🔧🌟
+## 🛠️ Features 🔧🌟
 - **🙌 Touch-Free Volume Control**: Adjust the 🔉 volume of your system by simply moving your 🤏 fingers.
 - **⏱️ Real-Time Hand Tracking**: Tracks ✋ hand gestures with high accuracy using 🤖 MediaPipe.
 - **📊 Interactive Visual Feedback**: Displays volume percentage 🔢 and real-time 🎥 visual indicators for user interaction.
@@ -22,7 +22,7 @@ The **Hand Gesture-Based Volume Control** project enables users to 🎚️ contr
 
 ---
 
-## 📥 Installation 📦⚙️🚀
+## 📥 Installation 📦⚙️
 1. 🧪 Clone this repository:
    ```bash
    git clone https://github.com/Tejasva-Maurya/Hand-Gesture-Volume-Control.git
@@ -39,7 +39,7 @@ The **Hand Gesture-Based Volume Control** project enables users to 🎚️ contr
 
 ---
 
-## 🛠️ How It Works 🧠🤹‍♂️✨
+## 🛠️ How It Works 🧠🤹‍♂️
 
 1. **📷 Webcam Input**: The program captures 📹 video frames using OpenCV.
 2. **✋ Hand Tracking**: 🤖 MediaPipe detects and tracks hand 🖖 landmarks in the video stream.
@@ -55,8 +55,8 @@ The **Hand Gesture-Based Volume Control** project enables users to 🎚️ contr
 
 ---
 
-## 🧩 Code Explanation 📝💡🔍
-### 🧱 Key Components 🔑🛠️✨
+## 🧩 Code Explanation 📝🔍
+### 🧱 Key Components 🔑🛠️
 
 #### 1. **✋ Hand Tracking**
 - `detector = htm.handDetector(maxhands=1, detectionCon=0.8, trackingCon=0.8)`
@@ -80,14 +80,14 @@ The **Hand Gesture-Based Volume Control** project enables users to 🎚️ contr
 
 ---
 
-## 💡 Use Cases 🌟🔍💡
+## 💡 Use Cases 🔍💡
 - **♿ Accessibility**: Provides an alternative input method for individuals with limited mobility.
 - **🧼 Touch-Free Interaction**: Useful in scenarios where physical interaction with devices is inconvenient or unhygienic.
 - **🎮 Gaming and Multimedia**: Offers a modern, intuitive way to control 🔊 audio during 🎮 gaming or media playback.
 
 ---
 
-## 🚀 Future Potential 🌟🔮🚀
+## 🚀 Future Potential 🔮🚀
 1. **🙌 Multi-Gesture Support**:
    - Implement additional gestures for functionalities like ▶️ play, ⏸️ pause, or 🌞 brightness adjustment.
 2. **🎙️ Voice Command Integration**:
@@ -101,7 +101,7 @@ The **Hand Gesture-Based Volume Control** project enables users to 🎚️ contr
 
 ---
 
-## ⚠️ Limitations ⚡🚫⚠️
+## ⚠️ Limitations ⚡⚠️
 - Relies on adequate 🌞 lighting for accurate ✋ hand tracking.
 - Requires a high-quality 📷 webcam for optimal performance.
 - May not work seamlessly in environments with 🎨 complex backgrounds.
